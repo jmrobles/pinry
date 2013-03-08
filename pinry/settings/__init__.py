@@ -16,8 +16,8 @@ ALLOW_NEW_REGISTRATIONS = True
 PUBLIC = True
 
 
-TIME_ZONE = 'America/New_York'
-LANGUAGE_CODE = 'en-us'
+TIME_ZONE = 'Europe/Madrid'
+LANGUAGE_CODE = 'es'
 USE_I18N = True
 USE_L10N = True
 USE_TZ = True

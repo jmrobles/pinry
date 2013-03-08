@@ -97,7 +97,7 @@ class PinResource(ModelResource):
         url = bundle.data.get('url', None)
         if url:
             image = Image.objects.create_for_url(url)
-            bundle.data['image'] = '/api/v1/image/{}/'.format(image.pk)
+            bundle.data['image'] = '/api/v1/image/{0}/'.format(image.pk)
         return bundle
 
     def dehydrate_tags(self, bundle):
